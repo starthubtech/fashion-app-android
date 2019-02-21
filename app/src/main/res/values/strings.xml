@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Swedigo</string>
+    <string-array name="onboarding_title">
+        <item>WELCOME</item>
+        <item>EASY SHOPPING</item>
+        <item>CAMERA ACTIVITY</item>
+    </string-array>
+    <string-array name="onboarding_bodies">
+        <item>Get a perfect wedding gown to suit your wedding occasion at an affordable price.</item>
+        <item>You can check for our stores close to you on your PC and mobile devices </item>
+        <item>Before purchasing a gown,you can try the gown on to see it fits perfectly.</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
