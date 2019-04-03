@@ -13,4 +13,60 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gown_detials">Gown_Detials</string>
+    <string name="Summer_Gown">Summer_Gown</string>
+    <string name="Try_On_Gown">Try_On_Gown</string>
+    <string name="Product_Detail">Product_Detail</string>
+    <string name="Add_To_Cart">Add_To_Cart</string>
+    <string name="Highlights">Highlights</string>
+    <string name="High_top_design">High_top_design</string>
+    <string name="Pure_Cotton">Pure_Cotton</string>
+    <string name="Washable_with_any_water">Washable_with_water</string>
+    <string name="Store">Store</string>
+    <string name="Amount">N50,567.00</string>
+    <string name="summer_gown">Summer Gown</string>
+    <string name="rate_gown">Rate Gown</string>
+    <string name="_148_atiku_abubakar_way_uyo_akwa_ibom_state_nigeria">148 Atiku Abubakar Way, Uyo Akwa Ibom State, Nigeria</string>
+    <string name="Hello">Hello blank fragment</string>
+
+
+
+        <string name="color_prompt">Choose a color</string>
+        <string-array name="colors">
+            <item>Color</item>
+            <item>White</item>
+            <item>Blue</item>
+            <item>Orange</item>
+            <item>Yellow</item>
+            <item>Green</item>
+            <item>Black</item>
+            <item>Pitch_Brown</item>
+            <item>Grey</item>
+            <item>Pink</item>
+            <item>Purple</item>
+            <item>Maroon</item>
+            <item>See_Green</item>
+        </string-array>
+
+    <string name="size_prompt">Choose your size</string>
+    <string-array name="size">
+        <item>Size</item>
+        <item>28</item>
+        <item>32</item>
+        <item>38</item>
+        <item>40</item>
+        <item>42</item>
+    </string-array>
+
+    <string name="quantity_prompt">Choose quantity</string>
+    <string-array name="quantity">
+        <item>Quantity</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
 </resources>
