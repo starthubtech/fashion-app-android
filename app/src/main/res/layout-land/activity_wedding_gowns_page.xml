@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeddingGownsPage">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:background="#DB4927CF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_vector"
+            app:layout_constraintBottom_toBottomOf="@+id/layout_top"
+            app:layout_constraintEnd_toEndOf="@+id/layout_top"
+            app:layout_constraintTop_toTopOf="@+id/layout_top"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="Wedding Gowns"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/layout_top"
+            app:layout_constraintEnd_toEndOf="@+id/layout_top"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/layout_top" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_option"
+            app:layout_constraintBottom_toBottomOf="@+id/textView12"
+            app:layout_constraintStart_toStartOf="@+id/layout_top"
+            app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/storeRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_top"
+        app:layout_constraintVertical_bias="0.0"
+        tools:listitem="@layout/wedding_gowns_detail" />
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:background="#fff"
+        android:paddingTop="0.5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_user"
+            app:layout_constraintBottom_toTopOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="@+id/textView6"
+            app:layout_constraintStart_toStartOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="Home"
+            android:textColor="#DB4927CF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/layout_bottom"
+            app:layout_constraintEnd_toStartOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="@id/layout_bottom" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wishlist"
+            android:textColor="#DB4927CF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView3"
+            app:layout_constraintEnd_toStartOf="@+id/textView5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cart"
+            android:textColor="#DB4927CF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView4"
+            app:layout_constraintEnd_toStartOf="@+id/textView6"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="Profile"
+            android:textColor="#DB4927CF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="@id/layout_bottom"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_home"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView3" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_wishlist"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="@+id/textView4" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_cart"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="@+id/textView5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView5" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
