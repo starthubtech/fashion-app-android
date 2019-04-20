@@ -29,7 +29,7 @@ class StoresAdapter(val storeDetailsList: ArrayList<StoreDetails>) : RecyclerVie
 
    class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
        val storeImage = itemView.findViewById(R.id.storeImage) as ImageView
-       val storeName = itemView.findViewById<TextView>(R.id.storeName)
+       val storeName = itemView.findViewById(R.id.storeName) as TextView
        val storeAddress = itemView.findViewById(R.id.storeAddress) as TextView
        val openingHours = itemView.findViewById(R.id.openingHours) as TextView
    }
