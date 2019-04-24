@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Swedigo</string>
+    <string name="api_key">INSERT API KEY HERE</string>
 </resources>
